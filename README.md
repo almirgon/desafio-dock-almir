@@ -29,11 +29,11 @@
     - `/AccountRepository`  Responsável pelo DAO de conta com as funcionalidades de buscar uma conta a partir do id.
     - `/PersonRepository`  Responsável pelo DAO de pessoa com as funcionalidades de buscar uma pessoa a partir do id.
     - `/TransactionRepository`  Responsável pelo DAO de transação.
-  - `/service` Diretório onde encontram-se os arquivos AccountService.java/ AccountBean.java, PersonService.java/ PersonBean.java, TransactionService.java/ TransactionBean.java. Sendo os arquivos Service interfaces com a assinatura do metodos e o bean implementando suas respectivas interfaces. 
+  - `/services` Diretório onde encontram-se os arquivos AccountService.java/ AccountBean.java, PersonService.java/ PersonBean.java, TransactionService.java/ TransactionBean.java. Sendo os arquivos Service interfaces com a assinatura do metodos e o bean implementando suas respectivas interfaces. 
     - `/account`  Service responsável pela implementação de metódos como: criar uma conta, consultar saldo, bloquear conta, encontrar conta e atualizar conta.
     - `/person`  Service responsável pela implementação de metódos como: criar uma pessoa e buscar uma ou todas as pessoas do sistema.
     - `/transaction` Service responsável pela implementação do método de operação (deposito ou saque).
-  - `/validators` Diretório onde encontra-se os arquivos CampaignValidator.java, CommentValidatorjava, UserValidator.java
+  - `/validators` Diretório onde encontra-se os arquivos AccountValidator.java, TransactionValidator.java
     - `/AccountValidator` Responsável por validar uma conta.
     - `/TransactionValidator` Responsável por validar uma transação.
 
